@@ -2,8 +2,8 @@ import time
 import pyupbit
 import datetime
 
-access = "oZqPpIejx3ZzYGsRByGyC0vlWS8iXpTcG4z2YfzQ"
-secret = "xiIUMc9fcxqs4NlNRxCoG3qN67VUr8yhb4CvW1eM"
+access = "ff"
+secret = "ff"
 
 def get_target_price(ticker, k):
     df = pyupbit.get_ohlcv(ticker, interval="day", count=2)
